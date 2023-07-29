@@ -1,0 +1,15 @@
+server:
+    port: 9191
+spring:
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        password: razdeepak
+        url: jdbc:mysql://localhost:3306/security
+        username: root
+    security:
+        oauth2:
+            client:
+                registration:
+                    github:
+                        client-id: 3fa1d0b289c01829d908
+                        client-secret: 63b1fcefcd427fe24d2a2defee0dde02d7bf9407
